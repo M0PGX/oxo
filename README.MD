@@ -1,4 +1,4 @@
-	reads data containing the results from OXO games and presents
+	Reads data containing the results from OXO games and presents
 	the results in a variety of ways.
 
 	There are 'Three' ways to win  - horizontal line, vertical line, 
