@@ -5,10 +5,12 @@ class NoughtsCrosses
 {
 	private $lines;
 	private $dataSource;
+	private $judgement;
 
-	public function __construct(OxoData $reader)
+	public function __construct(OxoData $reader, DataStore $db)
 	{
 		$this->datasource = $reader;
+		$this->judgement = $writer;
 		$this->lines = array();
 	}
 

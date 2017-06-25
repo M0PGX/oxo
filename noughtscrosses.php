@@ -2,8 +2,9 @@
 	require_once('class_NoughtsCrosses.php');
 	require_once('class_StdIn.php');
 	require_once('class_TheJudge.php');
+	require_once('class_Mysql.php');
 	
-	$class = new NoughtsCrosses(new StdIn());
+	$class = new NoughtsCrosses(new StdIn(), new Mysql());
 	
 	if ($argv[1] == 'results')
 	{
